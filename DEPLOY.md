@@ -14,8 +14,8 @@ This guide gets the site and CMS live so you can share a link with the committee
 
 ## Step 1: Push the repo to GitHub
 
-1. **Create a new repository on GitHub** (e.g. `southern-navigators-website`).  
-   Do **not** initialise with a README if the repo already exists locally.
+1. **Repository:** This project lives at **https://github.com/Southern-Navigators/website**.  
+   If you're setting up from scratch, create the repo under the Southern Navigators org (or fork/clone from it). Do **not** initialise with a README if the repo already exists locally.
 
 2. **From your project folder**, if Git isn’t set up yet:
    ```bash
@@ -23,10 +23,9 @@ This guide gets the site and CMS live so you can share a link with the committee
    git add .
    git commit -m "Initial site and CMS"
    git branch -M main
-   git remote add origin https://github.com/YOUR_USERNAME/southern-navigators-website.git
+   git remote add origin https://github.com/Southern-Navigators/website.git
    git push -u origin main
    ```
-   Replace `YOUR_USERNAME` with your GitHub username (or org name).
 
 3. If the repo is already a Git repo and you just need to push:
    ```bash
@@ -42,7 +41,7 @@ This guide gets the site and CMS live so you can share a link with the committee
 1. Log in at [app.netlify.com](https://app.netlify.com).
 2. Click **Add new site** → **Import an existing project**.
 3. Choose **GitHub** and authorise Netlify if asked.
-4. Select the **southern-navigators-website** repo (or whatever you named it).
+4. Select the **Southern-Navigators/website** repo.
 5. **Build settings** (Netlify usually detects these; if not, set manually):
    - **Branch to deploy:** `main`
    - **Build command:** `npm run build`
@@ -69,7 +68,7 @@ Editors log in with **GitHub** and need push access to the repo. No Netlify Iden
 
 1. **Use the GitHub backend** – The repo is already set up for this. In `public/admin/config.yml` the backend is:
    - `name: github`
-   - `repo: pdaplyn/southern-navigators-website` (or your `owner/repo`)
+   - `repo: Southern-Navigators/website`
    Do **not** enable Netlify Identity or Git Gateway.
 
 2. **Register the app with GitHub** (one-time):

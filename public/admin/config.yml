@@ -6,7 +6,7 @@ site_url: https://sensational-jelly-3596b2.netlify.app
 
 backend:
   name: github
-  repo: pdaplyn/southern-navigators-website
+  repo: Southern-Navigators/website
   branch: main
 
 media_folder: "public/images"

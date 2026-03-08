@@ -44,6 +44,6 @@ This file preserves the exact request and context so that automation (or a futur
 
 ## Automation context (for future sessions)
 
-- **Project path:** `C:\Users\Dad\southern-navigators-website`
+- **Project path:** `C:\Users\Dad\git\Southern-Navigators\website`
 - **Current state:** Plan and documentation created; no code or CMS built yet. Awaiting technical review and go-ahead.
 - **To resume:** Open this folder in Cursor; refer to `PLAN.md` and use the prompts in §10 to run Phase 1, 2, etc.

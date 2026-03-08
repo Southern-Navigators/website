@@ -1,28 +1,25 @@
 # Push to GitHub — run these after creating the repo
 
-The project is already a **Git repo** with one commit on `main` (308 files). You only need to create the repo on GitHub and push.
+The project is already a **Git repo**. The canonical repository is **https://github.com/Southern-Navigators/website** (Southern Navigators organization).
 
-## 1. Create the repo on GitHub
+## 1. Repo location
 
-1. Go to **[github.com/new](https://github.com/new)**.
-2. **Repository name:** e.g. `southern-navigators-website`.
-3. **Public**.
-4. **Do not** add a README, .gitignore, or license (they’re already in the project).
-5. Click **Create repository**.
+- **Org repo:** `Southern-Navigators/website`
+- If you're setting up a new clone or the remote isn't set yet, use the remote URL below.
 
 ## 2. Add the remote and push
 
-In a terminal, from the project folder (`c:\Users\Dad\southern-navigators-website`), run (replace **YOUR_USERNAME** with your GitHub username or org):
+In a terminal, from the project folder (e.g. `c:\Users\Dad\git\Southern-Navigators\website`), run:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/southern-navigators-website.git
+git remote add origin https://github.com/Southern-Navigators/website.git
 git push -u origin main
 ```
 
 If you use SSH:
 
 ```bash
-git remote add origin git@github.com:YOUR_USERNAME/southern-navigators-website.git
+git remote add origin git@github.com:Southern-Navigators/website.git
 git push -u origin main
 ```
 
@@ -32,4 +29,4 @@ Then follow **DEPLOY.md**: Netlify → Import from GitHub → build `npm run bui
 
 ---
 
-**Summary:** Local repo is ready. Create the empty repo on GitHub, then run the two `git` commands above.
+**Summary:** Point your local repo at `Southern-Navigators/website` with the `git remote` commands above, then push.

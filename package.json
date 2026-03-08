@@ -1,8 +1,9 @@
 {
-  "name": "southern-navigators-website",
+  "name": "website",
   "type": "module",
   "version": "0.1.0",
   "private": true,
+  "repository": "github:Southern-Navigators/website",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",

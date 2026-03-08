@@ -1,5 +1,7 @@
 # Southern Navigators — website replacement project
 
+**Repo:** [Southern-Navigators/website](https://github.com/Southern-Navigators/website)
+
 This repo contains the **new Southern Navigators Orienteering Club website** (Astro + Decap CMS) and the plan/docs for the replacement. The live site is https://www.southernnavigators.com/; the old stack (Craft CMS v2, PHP 5/7) is end-of-life.
 
 ## Contents

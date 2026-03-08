@@ -248,9 +248,9 @@ Stored in full in `ORIGINAL_PROMPT.md`. In short: replace site and CMS; migrate 
 
 Use these to instruct the AI/automation in the next steps:
 
-1. **“Execute Phase 1 of the Southern Navigators plan: create repo structure, document the prompt in ORIGINAL_PROMPT.md, and run a content inventory from southernnavigators.com. Assume project path C:\Users\Dad\southern-navigators-website.”**
+1. **“Execute Phase 1 of the Southern Navigators plan: create repo structure, document the prompt in ORIGINAL_PROMPT.md, and run a content inventory from southernnavigators.com. Assume project path C:\Users\Dad\git\Southern-Navigators\website.”**
 
-2. **“Execute Phase 2 of the Southern Navigators plan: scaffold Astro site and Decap CMS in the southern-navigators-website repo; implement layout, Events and Archive templates, and calendar.ics generation. Follow PLAN.md and CONTENT_CMS_SPEC.md.”**
+2. **“Execute Phase 2 of the Southern Navigators plan: scaffold Astro site and Decap CMS in the Southern-Navigators/website repo; implement layout, Events and Archive templates, and calendar.ics generation. Follow PLAN.md and CONTENT_CMS_SPEC.md.”**
 
 3. **“Execute Phase 3 of the Southern Navigators plan: migrate events and archive from the inventory (or from the CSV/export I’ve added) into the new content files. Preserve URLs or document redirects.”**
 
@@ -288,7 +288,7 @@ Use these to instruct the AI/automation in the next steps:
 
 To proceed smoothly, please:
 
-1. **Confirm go-ahead** to execute this plan (or which phases to run first), and confirm the project path (e.g. `C:\Users\Dad\southern-navigators-website` or a different folder/repo).
+1. **Confirm go-ahead** to execute this plan (or which phases to run first), and confirm the project path (e.g. `C:\Users\Dad\git\Southern-Navigators\website` or a different folder/repo).
 2. **Technical reviewer:** Watch the [CMS screen recording](https://drive.google.com/file/d/1Y5quQXl0frm8eJdhAwK4OgrqUIH0gaSG/view?usp=sharing) and either (a) add a short “CMS workflows” section to this plan or (b) create `CONTENT_CMS_SPEC.md` with fields and workflows so the build matches current usage.
 3. **Content export:** If possible, ask Paul Frost (paul@pfweb.co.uk) whether he can provide a content/database export (events, entries, pages) to simplify migration.
 4. **Clarify (optional):**  
@@ -300,4 +300,4 @@ Once the above are confirmed (and, if possible, the CMS notes and export receive
 
 ---
 
-*End of plan. Document maintained in `C:\Users\Dad\southern-navigators-website\`.*
+*End of plan. Document maintained in `C:\Users\Dad\git\Southern-Navigators\website\`.*
