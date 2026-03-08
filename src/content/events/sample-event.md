@@ -1,9 +1,10 @@
 ---
 title: Sample event 2026
-date: 2026-03-15
+date: 2026-03-07
 location: Star Posts, Bracknell
 level: Regional
-eventTypes: [Race]
+eventTypes:
+  - Race
 summary: A sample event for testing. Replace or delete via the CMS.
 ---
 
