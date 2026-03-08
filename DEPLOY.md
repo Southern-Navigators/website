@@ -77,6 +77,7 @@ Editors log in with **GitHub** and need push access to the repo. No Netlify Iden
    - **Homepage URL:** `https://yoursite.netlify.app` (your live Netlify URL).
    - **Authorization callback URL:** use **`https://api.netlify.com/auth/done`** (Netlify’s OAuth endpoint; do *not* use your site’s `/admin/`).
    - Create the app and note the **Client ID**. Generate a **Client secret** and keep it safe.
+   - **If the repo is in a GitHub organization:** Create the OAuth app under the org (or transfer it to the org in the app’s settings). Org-owned apps are trusted by default, so you won’t hit “OAuth App access restrictions” when publishing from the CMS.
 
 3. **Add the credentials in Netlify** (either method):
    - **Option A – Environment variables:** **Site configuration** → **Environment variables** → add `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET`, then redeploy.

@@ -66,8 +66,8 @@ To get the site and CMS live so you can share a link and try editing:
 
 1. **Push this repo to GitHub** (create a repo, then `git init` / `git add .` / `git commit` / `git remote add origin ...` / `git push -u origin main`).
 2. **Deploy on Netlify:** [app.netlify.com](https://app.netlify.com) → Add new site → Import from GitHub → select repo → build command **`npm run build`**, publish directory **`dist`** → Deploy.
-3. **Enable the CMS:** In Netlify → Site configuration → **Identity** → Enable Identity → **Services** → **Enable Git Gateway**. Then **Identity** → Invite users (committee emails).
-4. **Share:** Send the Netlify URL (e.g. `https://yoursite.netlify.app`) and **`/admin/`** to the committee; they log in with the email they were invited to.
+3. **Enable the CMS:** Use the **GitHub backend** (see DEPLOY.md): register the OAuth app with GitHub, add `GITHUB_CLIENT_ID` and `GITHUB_CLIENT_SECRET` in Netlify, and **invite committee via GitHub** — add each person as a **collaborator** on the [Southern-Navigators/website](https://github.com/Southern-Navigators/website) repo (repo **Settings** → **Collaborators**). They log in at **yoursite.netlify.app/admin/** with their GitHub account.
+4. **Share:** Send the Netlify URL and **`/admin/`** to the committee; they open `/admin/` and click **Log in with GitHub**.
 
 Full step-by-step: **DEPLOY.md**. CMS guide for editors: **COMMITTEE_CMS_GUIDE.md**.
 
